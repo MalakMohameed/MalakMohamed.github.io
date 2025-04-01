@@ -21,62 +21,62 @@ url: "https://MalakMohamed.github.io"  # replace with your actual site URL
 
 github:
   username: MalakMohameed  # replace with your GitHub username
-linkedin:
-
+linkedin: "https://www.linkedin.com/in/malak-mohamed-81a343212/"  # Make sure LinkedIn URL is filled out
 
 social:
-  name: Malak Mohamed  # Change to your name
-  email: malakmohamedabdelrazeq04@gmail.com  # Change to your email address
+  name: Malak Mohamed  # Your name
+  email: malakmohamedabdelrazeq04@gmail.com  # Your email address
   links:
-    - https://github.com/MalakMohameed  # replace with your GitHub profile URL
-    - https://www.linkedin.com/in/malak-mohamed-81a343212/  # replace with your LinkedIn URL
+    - https://github.com/MalakMohameed  # GitHub profile URL
+    - https://www.linkedin.com/in/malak-mohamed-81a343212/  # LinkedIn profile URL
 
-google_site_verification: your-verification-code
+google_site_verification: your-verification-code  # Use your actual Google Site Verification code here
 
 # jekyll-seo-tag settings end
 
 google_analytics:
-  id: G-XXXXXXX  # Replace with your Google Analytics ID
+  id: G-XXXXXXX  # Replace with your actual Google Analytics ID
 
-# Prefer color scheme setting
+# Prefer color scheme setting (empty will follow system preference)
 theme_mode:  # light or dark or empty for system preference
 
-# The CDN endpoint for images
-img_cdn: ""
+# The CDN endpoint for images (optional)
+img_cdn: "" 
 
-# The avatar on sidebar
+# The avatar on sidebar (use a valid URL to your avatar image)
 avatar: https://your-avatar-image-url.com  # Replace with your actual avatar URL
 
-# Social preview image for SEO
-social_preview_image: # optional
+# Social preview image for SEO (optional)
+social_preview_image: ""  # Optional, you can provide a URL for your SEO image
 
-# Table of contents (TOC)
+# Table of contents (TOC) setting
 toc: true
 
 comments:
-  active: # Leave empty to disable or fill with a comments system like Disqus, Utterances, or Giscus.
+  active: false  # Disabled by default; change to true to enable
   disqus:
-    shortname: # Fill with Disqus shortname if using Disqus comments
+    shortname: ""  # Your Disqus shortname, leave empty to disable
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: title
+    repo: ""  # GitHub repository for comments, leave empty to disable
+    issue_term: "title"  # The term to associate with issues
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: pathname
-    lang: en
+    repo: ""  # GitHub repository for Giscus comments
+    repo_id: ""
+    category: ""
+    category_id: ""
+    mapping: "pathname"
+    lang: "en"
 
 pwa:
-  enabled: true  # enable PWA feature (installable)
+  enabled: true  # Enable PWA feature (installable)
   cache:
-    enabled: true  # enable PWA offline cache
+    enabled: true  # Enable offline cache
+    deny_paths: []  # No specific paths excluded from cache
 
-paginate: 10
+paginate: 10  # Number of posts per page
 
 # Base URL of your site
-baseurl: ""
+baseurl: ""  # Leave empty for default URL
 
 kramdown:
   syntax_highlighter: rouge
@@ -93,30 +93,30 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: ""  # Applies to all files in the project
       type: posts
     values:
       layout: post
-      comments: true
-      toc: true
-      permalink: /posts/:title/
+      comments: true  # Enable comments on posts
+      toc: true  # Enable TOC for posts
+      permalink: /posts/:title/  # Post permalink structure
   - scope:
-      path: _drafts
+      path: _drafts  # Draft posts don't have comments
     values:
       comments: false
   - scope:
       path: ""
-      type: tabs
+      type: tabs  # For tabbed layouts
     values:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/js/dist
+      path: assets/js/dist  # Cache for PWA assets
     values:
       swcache: true
 
 sass:
-  style: compressed
+  style: compressed  # Compress CSS output
 
 compress_html:
   clippings: all
@@ -125,7 +125,7 @@ compress_html:
   profile: false
   blanklines: false
   ignore:
-    envs: [development]
+    envs: [development]  # Ignore compression in development
 
 exclude:
   - "*.gem"
@@ -133,6 +133,7 @@ exclude:
   - docs
   - tools
   - README.md
+  - LICENSE
   - rollup.config.js
   - package*.json
 
