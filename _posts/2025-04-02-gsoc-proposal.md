@@ -46,33 +46,15 @@ I will document the project thoroughly, providing clear setup instructions, usag
 
 ## Project Implementation Plan
 
-### Week 1-2 (May 1 - May 14)
-**Task:**
-- Setup and configuration of multi-camera hardware (if necessary) and software.
-- Study OpenCV’s video capture mechanisms in-depth (i.e., `cv::VideoCapture` and `cv::VideoWriter`).
-- Review OpenCV’s support for various video input sources (e.g., V4L2, RTSP).
-- Begin research on timestamping and synchronization techniques.
-
-### Week 3-4 (May 15 - May 28)
-**Task:**
-- Implement initial code to handle video capture from multiple cameras.
-- Develop logic to ensure synchronous recording of video streams from all cameras.
-- Create basic test cases for synchronization (e.g., capture a video from two cameras and compare timestamps).
-
-| **Week**             | **Dates**             | **Tasks**                                                                                                                                              |
-|----------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Week 5-6**         | May 29 - June 11      | - Refine synchronization logic to handle different camera input types, ensuring that both V4L2 and RTSP streams can be synchronized effectively.        |
-|                      |                       | - Integrate timestamping and refine the system for capturing and comparing frame timestamps.                                                           |
-|                      |                       | - Begin testing the solution with real hardware (if applicable).                                                                                       |
-| **Week 7-8**         | June 12 - June 25     | - Optimize the multi-camera recording solution for performance, ensuring minimal latency and overhead during recording.                                 |
-|                      |                       | - Implement advanced synchronization techniques, ensuring precision across multiple cameras.                                                           |
-|                      |                       | - Create comprehensive test cases for various scenarios (e.g., different camera models, input types).                                                   |
-| **Week 9**           | June 26 - July 2      | - Finalize the code and ensure all features are working as expected.                                                                                  |
-|                      |                       | - Conduct internal testing to verify synchronization accuracy and performance across multiple camera setups.                                            |
-| **Week 10**          | July 3 - July 9       | - Write documentation for the project, covering installation, usage, and known limitations.                                                           |
-|                      |                       | - Prepare project deliverables for final submission.                                                                                                  |
-| **Final Week**       | July 10 - July 17     | - Make any final bug fixes or adjustments based on feedback from mentors and testers.                                                                  |
-|                      |                       | - Submit the project with all required documentation and code.                                                                                         |
+| **Week**            | **Dates**            | **Tasks**                                                                                                                                              |
+|---------------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Week 1-2**        | May 1 - May 14       | - Setup and configuration of multi-camera hardware (if necessary) and software. <br> - Study OpenCV’s video capture mechanisms in-depth (i.e., `cv::VideoCapture` and `cv::VideoWriter`). <br> - Review OpenCV’s support for various video input sources (e.g., V4L2, RTSP). <br> - Begin research on timestamping and synchronization techniques. |
+| **Week 3-4**        | May 15 - May 28      | - Implement initial code to handle video capture from multiple cameras. <br> - Develop logic to ensure synchronous recording of video streams from all cameras. <br> - Create basic test cases for synchronization (e.g., capture a video from two cameras and compare timestamps). |
+| **Week 5-6**        | May 29 - June 11     | - Refine synchronization logic to handle different camera input types, ensuring that both V4L2 and RTSP streams can be synchronized effectively. <br> - Integrate timestamping and refine the system for capturing and comparing frame timestamps. <br> - Begin testing the solution with real hardware (if applicable). |
+| **Week 7-8**        | June 12 - June 25    | - Optimize the multi-camera recording solution for performance, ensuring minimal latency and overhead during recording. <br> - Implement advanced synchronization techniques, ensuring precision across multiple cameras. <br> - Create comprehensive test cases for various scenarios (e.g., different camera models, input types). |
+| **Week 9**          | June 26 - July 2     | - Finalize the code and ensure all features are working as expected. <br> - Conduct internal testing to verify synchronization accuracy and performance across multiple camera setups. |
+| **Week 10**         | July 3 - July 9      | - Write documentation for the project, covering installation, usage, and known limitations. <br> - Prepare project deliverables for final submission. |
+| **Final Week**      | July 10 - July 17    | - Make any final bug fixes or adjustments based on feedback from mentors and testers. <br> - Submit the project with all required documentation and code. |
 
 ## Why Me?
 
