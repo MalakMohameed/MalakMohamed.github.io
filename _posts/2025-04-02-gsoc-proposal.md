@@ -1,4 +1,4 @@
-Google Summer of Code 2024 Proposal
+Google Summer of Code 2025 Proposal
 Project: Synchronized Multi-Camera Video Recording in OpenCV
 Mentor:
 Alexander S. (OpenCV Community)
@@ -62,44 +62,21 @@ Develop logic to ensure synchronous recording of video streams from all cameras.
 
 Create basic test cases for synchronization (e.g., capture a video from two cameras and compare timestamps).
 
-Week 5-6 (May 29 - June 11)
-Task:
 
-Refine synchronization logic to handle different camera input types, ensuring that both V4L2 and RTSP streams can be synchronized effectively.
-
-Integrate timestamping and refine the system for capturing and comparing frame timestamps.
-
-Begin testing the solution with real hardware (if applicable).
-
-Week 7-8 (June 12 - June 25)
-Task:
-
-Optimize the multi-camera recording solution for performance, ensuring minimal latency and overhead during recording.
-
-Implement advanced synchronization techniques, ensuring precision across multiple cameras.
-
-Create comprehensive test cases for various scenarios (e.g., different camera models, input types).
-
-Week 9 (June 26 - July 2)
-Task:
-
-Finalize the code and ensure all features are working as expected.
-
-Conduct internal testing to verify synchronization accuracy and performance across multiple camera setups.
-
-Week 10 (July 3 - July 9)
-Task:
-
-Write documentation for the project, covering installation, usage, and known limitations.
-
-Prepare project deliverables for final submission.
-
-Final Week (July 10 - July 17)
-Task:
-
-Make any final bug fixes or adjustments based on feedback from mentors and testers.
-
-Submit the project with all required documentation and code.
+| **Week**             | **Dates**             | **Tasks**                                                                                                                                              |
+|----------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Week 5-6**         | May 29 - June 11      | - Refine synchronization logic to handle different camera input types, ensuring that both V4L2 and RTSP streams can be synchronized effectively.        |
+|                      |                       | - Integrate timestamping and refine the system for capturing and comparing frame timestamps.                                                           |
+|                      |                       | - Begin testing the solution with real hardware (if applicable).                                                                                       |
+| **Week 7-8**         | June 12 - June 25     | - Optimize the multi-camera recording solution for performance, ensuring minimal latency and overhead during recording.                                 |
+|                      |                       | - Implement advanced synchronization techniques, ensuring precision across multiple cameras.                                                           |
+|                      |                       | - Create comprehensive test cases for various scenarios (e.g., different camera models, input types).                                                   |
+| **Week 9**           | June 26 - July 2      | - Finalize the code and ensure all features are working as expected.                                                                                  |
+|                      |                       | - Conduct internal testing to verify synchronization accuracy and performance across multiple camera setups.                                            |
+| **Week 10**          | July 3 - July 9       | - Write documentation for the project, covering installation, usage, and known limitations.                                                           |
+|                      |                       | - Prepare project deliverables for final submission.                                                                                                  |
+| **Final Week**       | July 10 - July 17     | - Make any final bug fixes or adjustments based on feedback from mentors and testers.                                                                  |
+|                      |                       | - Submit the project with all required documentation and code.                                                                                         |
 
 Why Me?
 I have significant experience working with OpenCV and C++ in video processing, and I am deeply interested in multi-camera systems and synchronization. My background in AI and computer vision gives me a strong foundation in handling large datasets and real-time processing, both of which are key to this project. I am also familiar with the challenges of working with different camera types and synchronizing them accurately, which makes me well-suited for this task.
