@@ -36,6 +36,27 @@ My experience, passion for open-source development, and commitment to learning a
 - [ ] **Timestamping and Synchronization Research:** I’m currently researching different timestamping methods and synchronization techniques for multi-camera setups, aiming to align video streams effectively and handle any frame rate discrepancies between cameras.
 
 - [ ] **Familiarizing with Multi-Camera Synchronization Techniques:** I plan to dive deeper into synchronization techniques, especially dealing with timestamp misalignments and frame rate variations across different camera sources. This will help me design an effective solution for precise synchronization of multiple video streams.
+
+### Contributions List
+
+I have worked on multiple issues and enhancements related to multi-camera video capture, synchronization, and OpenCV integration in my project.
+
+| PR Number | Title/Description                               | Date       | Status | Comments/Type |
+|-----------|-------------------------------------------------|------------|--------|---------------|
+| [#1](https://github.com/YourRepo/YourProject/pull/1)   | Set up OpenCV environment and multi-camera configuration | 2024/3/1   | Merged | Setup |
+| [#2](https://github.com/YourRepo/YourProject/pull/2)   | Implemented basic video capture logic using `cv::VideoCapture` | 2024/3/5   | Merged | Feature |
+| [#3](https://github.com/YourRepo/YourProject/pull/3)   | Developed initial synchronization for video streams from multiple cameras | 2024/3/7   | Merged | Feature |
+| [#4](https://github.com/YourRepo/YourProject/pull/4)   | Fixed timestamp synchronization issue for multi-camera streams | 2024/3/10  | Merged | Bug Fix |
+| [#5](https://github.com/YourRepo/YourProject/pull/5)   | Implemented RTSP stream support for video capture | 2024/3/12  | Merged | Feature |
+| [#6](https://github.com/YourRepo/YourProject/pull/6)   | Optimized video processing pipeline for lower latency | 2024/3/15  | Merged | Enhancement |
+| [#7](https://github.com/YourRepo/YourProject/pull/7)   | Addressed V4L2 stream synchronization issue | 2024/3/18  | Merged | Bug Fix |
+| [#8](https://github.com/YourRepo/YourProject/pull/8)   | Added frame rate adjustment to sync video streams better | 2024/3/22  | Merged | Feature |
+| [#9](https://github.com/YourRepo/YourProject/pull/9)   | Created test cases for multi-camera synchronization validation | 2024/3/25  | Merged | Testing |
+| [#10](https://github.com/YourRepo/YourProject/pull/10)  | Fixed playback issue when streaming from multiple cameras | 2024/3/28  | Merged | Bug Fix |
+| [#11](https://github.com/YourRepo/YourProject/pull/11)  | Improved logging for frame synchronization and video capture | 2024/3/30  | Merged | Enhancement |
+| [#12](https://github.com/YourRepo/YourProject/pull/12)  | Updated documentation for multi-camera setup and synchronization logic | 2024/4/2   | Merged | Documentation |
+
+
 ## Problem Understanding
 
 In multi-camera video recording, especially in applications requiring calibration and synchronization, there is often a need to ensure that the video streams from all cameras are captured simultaneously, or as close to simultaneously as possible. This is especially important in scenarios such as 3D reconstruction, motion capture, or when combining video data from multiple perspectives. OpenCV provides strong tools for working with video feeds, but synchronizing multiple feeds and handling timestamps across different sources is a complex task.
