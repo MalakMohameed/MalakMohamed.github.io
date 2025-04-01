@@ -7,7 +7,7 @@ Goal:
 The goal of this project is to implement synchronized multi-camera video recording using OpenCV, enabling real-time capture of video streams from multiple cameras in a synchronized manner. This is especially valuable for applications in multi-view scenarios where calibration between different cameras and synchronization of the video streams are crucial. The project will focus on working with various camera input methods, including V4L2 and RTSP streams, and ensuring that video frames from multiple cameras are timestamped and captured synchronously.
 
 About Me
-Email: malak.mohamed@email.com
+Email: malakmohamedabdelrazeq04@gmail.com
 Country: Egypt
 LinkedIn: Malak Mohamed LinkedIn
 GitHub: Malak Mohamed GitHub
