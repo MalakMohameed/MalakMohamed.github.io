@@ -89,6 +89,25 @@ I will document the project thoroughly, providing clear setup instructions, usag
 | **Week 10**         | July 3 - July 9      | - Write documentation for the project, covering installation, usage, and known limitations. <br> - Prepare project deliverables for final submission. |
 | **Final Week**      | July 10 - July 17    | - Make any final bug fixes or adjustments based on feedback from mentors and testers. <br> - Submit the project with all required documentation and code. |
 
+
+#### Understand more about the functional requirements
+
+- I will be focusing on gaining a thorough understanding of the functional requirements for the **multi-camera synchronization and video capture** feature. I will engage in discussions with my mentor to clarify any uncertainties and gather all the necessary information about the technical and user-facing aspects of the feature.
+
+- Additionally, I will review relevant documentation and any existing issues related to multi-camera setups to ensure I have a clear vision of how the feature should function and what challenges need to be addressed.
+
+- Proceed with the implementation phase only after ensuring a clear and thorough understanding of the desired outcomes and technical needs of the project.
+
+#### Planning the implementation details in detail
+
+- After gathering all the necessary insights and information, I will proceed to plan the implementation details. I will create a detailed design, including clear steps for how the video capture from multiple cameras will be synchronized effectively.
+
+- I will also prepare a comprehensive mock-up or flowchart that visualizes the core parts of the feature and ensures that the synchronization process is smooth, with consideration for different camera inputs and frame timestamps.
+
+- This planning phase will also involve determining performance optimizations and identifying test cases that will validate the functionality across different setups and hardware configurations.
+
+
+
 ## Why Me?
 
 I have significant experience working with OpenCV and C++ in video processing, and I am deeply interested in multi-camera systems and synchronization. My background in AI and computer vision gives me a strong foundation in handling large datasets and real-time processing, both of which are key to this project. I am also familiar with the challenges of working with different camera types and synchronizing them accurately, which makes me well-suited for this task.
