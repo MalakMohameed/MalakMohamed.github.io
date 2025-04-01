@@ -1,5 +1,5 @@
-Google Summer of Code 2025 Proposal
-Project: Synchronized Multi-Camera Video Recording in OpenCV
+#### Google Summer of Code 2025 Proposal
+## Project: Synchronized Multi-Camera Video Recording in OpenCV
 Mentor:
 Alexander S. (OpenCV Community)
 
