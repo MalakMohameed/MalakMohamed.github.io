@@ -1,4 +1,4 @@
-### Google Summer of Code 2025 Proposal
+# Google Summer of Code 2025 Proposal
 ## Project: Synchronized Multi-Camera Video Recording in OpenCV
 Mentor:
 Alexander S. (OpenCV Community)
@@ -7,10 +7,10 @@ Goal:
 The goal of this project is to implement synchronized multi-camera video recording using OpenCV, enabling real-time capture of video streams from multiple cameras in a synchronized manner. This is especially valuable for applications in multi-view scenarios where calibration between different cameras and synchronization of the video streams are crucial. The project will focus on working with various camera input methods, including V4L2 and RTSP streams, and ensuring that video frames from multiple cameras are timestamped and captured synchronously.
 
 ## About Me
-# Email: malakmohamedabdelrazeq04@gmail.com
-# Country: Egypt
-# LinkedIn: Malak Mohamed LinkedIn
-# GitHub: Malak Mohamed GitHub
+#### Email: malakmohamedabdelrazeq04@gmail.com
+#### Country: Egypt
+#### LinkedIn: Malak Mohamed LinkedIn
+#### GitHub: Malak Mohamed GitHub
 
 I’m Malak Mohamed, an AI student at Misr International University, Egypt, with a passion for computer vision and machine learning. Over the past few years, I have focused on using OpenCV for various computer vision tasks, including image processing, object detection, and video analysis. I’ve also worked extensively with C++ for performance-sensitive applications, allowing me to understand the underlying mechanics of video capture and synchronization.
 
