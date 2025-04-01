@@ -12,8 +12,8 @@ The goal of this project is to implement synchronized multi-camera video recordi
 
 - **Email:** malakmohamedabdelrazeq04@gmail.com  
 - **Country:** Egypt  
-- **LinkedIn:** [Malak Mohamed LinkedIn](https://www.linkedin.com)  
-- **GitHub:** [Malak Mohamed GitHub](https://github.com)  
+- **LinkedIn:** [Malak Mohamed LinkedIn](https://[www.linkedin.com](https://www.linkedin.com/in/malak-mohamed-81a343212/))  
+- **GitHub:** [Malak Mohamed GitHub](https://[github.com](https://github.com/MalakMohameed))  
 
 I’m Malak Mohamed, an AI student at Misr International University, Egypt, with a passion for computer vision and machine learning. Over the past few years, I have focused on using OpenCV for various computer vision tasks, including image processing, object detection, and video analysis. I’ve also worked extensively with C++ for performance-sensitive applications, allowing me to understand the underlying mechanics of video capture and synchronization.
 
