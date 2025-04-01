@@ -15,15 +15,27 @@ The goal of this project is to implement synchronized multi-camera video recordi
 - **LinkedIn:** [Malak Mohamed LinkedIn](https://www.linkedin.com/in/malak-mohamed-81a343212/)  
 - **GitHub:** [Malak Mohamed GitHub](https://github.com/MalakMohameed)  
 
-I’m Malak Mohamed, an AI student at Misr International University, Egypt, with a passion for computer vision and machine learning. Over the past few years, I have focused on using OpenCV for various computer vision tasks, including image processing, object detection, and video analysis. I’ve also worked extensively with C++ for performance-sensitive applications, allowing me to understand the underlying mechanics of video capture and synchronization.
+I am **Malak Mohamed**, a passionate AI student at **Misr International University** in Egypt. My journey in the field of technology began early, and over the years, I’ve developed a strong interest in computer vision and machine learning. As a student of Artificial Intelligence, I have explored various topics related to data analysis, machine learning algorithms, and AI-driven applications. I am particularly fascinated by how AI can be applied to real-world scenarios, such as improving systems for banking, name matching, and predictive models.
 
-I have contributed to several projects involving image and video processing, and I am excited to take on a challenge that involves multi-camera setups. I see this Google Summer of Code (GSoC) opportunity as a perfect way to apply my skills and further deepen my expertise in OpenCV while contributing to open-source development.
+I’ve worked on several projects that have allowed me to deepen my knowledge and sharpen my technical skills. One of the projects I’m most proud of is **BankTextGuard**, an AI-driven text detection system for banking, where I developed a solution that uses Natural Language Processing (NLP) and Machine Learning to automate actions based on transaction text. Additionally, I’ve contributed to projects that involve **cross-language name matching** to improve accuracy in name matching between Arabic and English, which I’m working on currently.
 
-### Investigations:
-- **Set Up OpenCV Environment:** I’ve already set up OpenCV with C++ in my development environment and have been working on video processing tasks using `cv::VideoCapture` and `cv::VideoWriter`.
-- **Multi-Camera Setup:** I have explored OpenCV's support for multi-camera setups and how to handle them in synchronous scenarios. I have also tested various camera sources, including V4L2, and RTSP streams.
-- **Initial Testing:** I’ve tested basic video capture and playback functions, which will be crucial for setting up synchronized recording. I am currently reviewing OpenCV’s capabilities with timestamped video frames.
+Throughout my academic and professional journey, I’ve actively sought opportunities to engage with open-source projects. My passion for AI and machine learning drives me to continuously improve my skills and contribute meaningfully to the community. One of the highlights of my journey is my current internship at **Banque du Caire**, where I’ve had the chance to apply my knowledge in real-world financial systems, improving account management software and contributing to system optimizations.
 
+Being involved in **Google Summer of Code (GSoC)** would be an incredible opportunity for me to apply my skills in a real-world open-source environment. I’m excited about the prospect of working on the **Synchronized Multi-Camera Video Recording project** using OpenCV, as it aligns perfectly with my interest in computer vision and multi-camera systems. I have already explored OpenCV’s capabilities and am eager to contribute to enhancing synchronization logic across various camera setups. This project presents a unique challenge, and I’m enthusiastic about the impact it could have on the community.
+
+My experience, passion for open-source development, and commitment to learning and problem-solving make me an ideal candidate for this GSoC opportunity, and I look forward to contributing to the open-source community through this project!
+
+### Investigations
+
+- [x] **Set Up OpenCV Environment:** I’ve successfully set up OpenCV with C++ in my development environment and started working on video processing tasks using `cv::VideoCapture` and `cv::VideoWriter`.
+
+- [x] **Multi-Camera Setup:** I explored OpenCV’s support for multi-camera setups and synchronous scenarios. I tested various camera sources, including V4L2 and RTSP streams, to ensure that the system can handle different types of camera inputs effectively.
+
+- [x] **Initial Testing:** I’ve tested basic video capture and playback functions, which are crucial for setting up synchronized recording. I reviewed OpenCV’s capabilities in handling timestamped video frames to ensure that video frames can be accurately captured and aligned for synchronization.
+
+- [ ] **Timestamping and Synchronization Research:** I’m currently researching different timestamping methods and synchronization techniques for multi-camera setups, aiming to align video streams effectively and handle any frame rate discrepancies between cameras.
+
+- [ ] **Familiarizing with Multi-Camera Synchronization Techniques:** I plan to dive deeper into synchronization techniques, especially dealing with timestamp misalignments and frame rate variations across different camera sources. This will help me design an effective solution for precise synchronization of multiple video streams.
 ## Problem Understanding
 
 In multi-camera video recording, especially in applications requiring calibration and synchronization, there is often a need to ensure that the video streams from all cameras are captured simultaneously, or as close to simultaneously as possible. This is especially important in scenarios such as 3D reconstruction, motion capture, or when combining video data from multiple perspectives. OpenCV provides strong tools for working with video feeds, but synchronizing multiple feeds and handling timestamps across different sources is a complex task.
