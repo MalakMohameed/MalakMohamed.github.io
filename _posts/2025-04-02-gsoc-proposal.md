@@ -1,5 +1,3 @@
----
-
 # Google Summer of Code 2025 Proposal
 
 ## Project: Synchronized Multi-Camera Video Recording in OpenCV
@@ -81,5 +79,3 @@ I will document the project thoroughly, providing clear setup instructions, usag
 I have significant experience working with OpenCV and C++ in video processing, and I am deeply interested in multi-camera systems and synchronization. My background in AI and computer vision gives me a strong foundation in handling large datasets and real-time processing, both of which are key to this project. I am also familiar with the challenges of working with different camera types and synchronizing them accurately, which makes me well-suited for this task.
 
 Furthermore, my commitment to open-source development, coupled with my passion for learning and improving systems, ensures that I will approach this project with the necessary diligence and enthusiasm. I look forward to contributing to OpenCV and the broader community through this project.
-
----
