@@ -6,7 +6,11 @@
 **Alexander S.** (OpenCV Community)
 
 ### Goal:
-The goal of this project is to implement synchronized multi-camera video recording using OpenCV, enabling real-time capture of video streams from multiple cameras in a synchronized manner. This is especially valuable for applications in multi-view scenarios where calibration between different cameras and synchronization of the video streams are crucial. The project will focus on working with various camera input methods, including V4L2 and RTSP streams, and ensuring that video frames from multiple cameras are timestamped and captured synchronously.
+The primary goal of this project is to implement synchronized multi-camera video recording using OpenCV, enabling the real-time capture of video streams from multiple cameras in a synchronized manner. This feature will be particularly valuable in applications that require multiple viewpoints, such as surveillance, 3D modeling, or event recording. 
+
+The project aims to ensure the precise synchronization of video streams from different camera sources, including V4L2 and RTSP streams. It will involve developing mechanisms to handle timestamping, ensuring that frames from each camera are captured simultaneously. Additionally, the project will address challenges related to video frame calibration across different cameras, ensuring that the multiple video streams align perfectly for further analysis or playback.
+
+This feature is designed to provide a reliable and efficient solution for capturing synchronized multi-camera video, which can be used in various domains such as research, entertainment, and security systems. By leveraging OpenCV, the project will ensure that the solution is highly customizable, scalable, and easy to integrate with other systems or applications.
 
 ## About Me
 
