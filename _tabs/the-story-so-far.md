@@ -1,5 +1,3 @@
----
-
 # About Me
 icon: fas fa-info-circle  
 order: 4
@@ -30,4 +28,3 @@ Just kidding! Let’s keep things light, shall we? 😄
 - **LinkedIn:** [Malak Mohamed](https://www.linkedin.com/in/malak-mohamed-81a343212/)  
 Feel free to reach out if you’re interested in tech, AI, or just want to chat!
 
----
